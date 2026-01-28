@@ -1,11 +1,7 @@
 @import url(reset.css);
 @import url(geral.css);
 
-
-body{
-    font-family: 'Montserrat', sans-serif;
-    color: var(--cor-texto-primaria);
-}
+/**----------------------------------------------------------------------------- Header -------------------------------------------------------------**/
 
 header{
    
@@ -53,6 +49,7 @@ header ul{
     
 }
 
+/** ------------------------------------------------------Section 1--------------------------------------------------------------------------------- **/
 
 #main_img {
     width: 100vw;
@@ -92,6 +89,7 @@ h2{
     gap: 10px;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
+    position: relative;
 }
 
 .categorias{
@@ -106,4 +104,23 @@ h2{
     width: 281.25px;
     height: 220px;
     background-color: var(--cor-fundo-primaria);
+}
+
+#CaboverdeGPT {
+    width: 588px;
+    height: 390px;
+
+}
+
+
+.Cards_img {
+    border-radius: 20px;
+    position: relative;
+}
+.segundo_section p {
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    color: black;
+    z-index: 2;
 }

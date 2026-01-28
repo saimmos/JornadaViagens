@@ -13,3 +13,8 @@
 
     --cor-botao: #B81515;
 }
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: var(--cor-texto-primaria);
+}
